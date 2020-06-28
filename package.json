@@ -1,7 +1,7 @@
 {
   "name": "nuxt-typescript-vuetify-starter",
   "version": "1.0.0",
-  "author": "Johannes Lauter",
+  "author": "Johannes Lauter | Andika Erwansyah - remove cypress and using @mdi/font",
   "license": "MIT",
   "scripts": {
     "dev": "nuxt-ts dev",
@@ -13,24 +13,24 @@
     "now-build": "nuxt-ts build --spa"
   },
   "dependencies": {
+    "@mdi/font": "5.3.45",
     "@nuxt/typescript-runtime": "0.3.8",
     "deepmerge": "4.2.2",
     "fibers": "4.0.2",
-    "material-design-icons-iconfont": "5.0.1",
     "nuxt": "2.12.0",
     "sass": "1.25.0",
     "sass-loader": "7.3.1",
     "ts-node": "8.6.2",
     "vue-property-decorator": "8.4.0",
-    "vuetify": "2.2.11",
+    "vuetify": "2.3.2",
     "vuetify-loader": "1.4.3",
     "vuex-class": "0.3.2",
     "vuex-module-decorators": "0.16.1"
   },
   "devDependencies": {
+    "@nuxt/types": "2.13.2",
     "@nuxt/typescript-build": "0.5.6",
     "@nuxtjs/eslint-config-typescript": "1.0.0",
-    "cypress": "3.8.3",
     "eslint": "6.8.0",
     "eslint-loader": "3.0.3",
     "tslint-config-standard": "9.0.0"
